@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin:0
+}
+body{
+/* https://uigradients.com */
+background: #FFA17F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin: 0;
+padding: 0;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+
+.empty-card{
+ width:150px;
+ height:calc(150px *7/5);
+ border: 1px solid black;
+ border-radius: 5px;
+ margin: 8px 0px;
+}
+
+
+img{
+    /* 5to7 */
+ width:150px;
+ height:calc(150px * 7/5);
+ margin: 8px 0px;
+ 
+}
+
+
+#new-deck{
+    align-self: center;
+}
+#draw-cards{
+align-self: stretch;
+ 
+}
+#cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+/* align-self: center; */
+
+}
+
+button{
+    padding: 10px 20px;
+    /* background: none; */
+    background-color: #FFA17F;
+    font-weight: 400;
+    font-size: large;
+    border-radius: 8px;
+    /* border: none; */
+    cursor: pointer;
+}
+button:hover{
+    background-color: #e96130;
+}
